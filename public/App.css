@@ -1,0 +1,420 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #root {
+    width: 375px;
+    height: auto;
+    border: 1px solid #000;
+  }
+
+  .footer-nav {
+    width: 375px !important;
+  }
+}
+
+.carousel {
+  margin-top: 0rem;
+  z-index: -1;
+}
+
+.carousel img {
+  filter: drop-shadow(0.5px 0.5px 3px #000);
+}
+
+.carousel h3 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #F6F4EB;
+}
+
+.carousel p {
+  font-size: 1rem;
+  color: #FFE17B
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.search {
+  text-align: center;
+  border: 0;
+  padding: 0;
+  margin-top: -3.5rem;
+  margin-left: 4rem;
+  width: 80%;
+  margin-bottom: 6rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+
+.footer {
+  box-shadow: 1px 1px 10px #000;
+  padding: 2rem;
+  gap: 2rem;
+  display: flex;
+  background-color: #900C3F;
+  color: #fff;
+}
+
+.company {
+  text-align: left;
+}
+
+.socials {
+  display: flex;
+  gap: 0.5rem;
+  /* justify-content: space-evenly; */
+  gap: 1rem;
+}
+
+.footer-nav {
+  margin: 5rem;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  margin: 0;
+}
+
+.owner-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+
+.card-img1,
+.card-img2,
+.card-img3 {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.amenities {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.register {
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.register>h3 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.login {
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.login>h3 {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.features-section {
+  text-align: center;
+  margin-top: -2rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-number {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.feature-name {
+  margin-top: -1rem;
+  font-size: 0.7rem;
+  color: #B4B4B3;
+}
+
+.reviews {
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 20px;
+  margin-top: -2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+}
+
+.reviews::-webkit-scrollbar {
+  display: none;
+}
+
+.review {
+  width: 20rem;
+  height: 50%;
+}
+
+.more-reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.more-reviews>div {
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #000;
+}
+
+.onboarding {
+  margin-top: -3.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.onboarding-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.booking-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.booker>h6 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.booker-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+}
+
+.review-form {
+  position: relative;
+  border-radius: 25px;
+  padding: 2rem;
+}
+
+/* DatePicker.css */
+
+.date-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.date-picker-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  /* Title text color */
+}
+
+.date-picker-input {
+  font-size: 0.8rem;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 200px;
+  /* Adjust the width as needed */
+}
+
+.date-picker-input:hover,
+.date-picker-input:focus {
+  border-color: #007bff;
+  /* Highlight border color on hover and focus */
+}
+
+.react-datepicker {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.react-datepicker__header {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.react-datepicker__current-month {
+  font-size: 18px;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.react-datepicker__day:hover {
+  background-color: #f0f0f0;
+}
+
+.react-datepicker__day--selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* TimePicker.css */
+
+.time-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.time-picker-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  /* Title text color */
+}
+
+.time-picker-input {
+  font-size: 0.8rem;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 200px;
+  /* Adjust the width as needed */
+}
+
+.time-picker-input:hover,
+.time-picker-input:focus {
+  border-color: #007bff;
+  /* Highlight border color on hover and focus */
+}
+
+.react-time-picker {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.react-time-picker__clock {
+  display: none;
+  /* Hide the clock view */
+}
+
+.react-time-picker__inputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.react-time-picker__inputGroup__input {
+  flex: 1;
+  padding: 8px;
+}
+
+.react-time-picker__clear-button {
+  display: none;
+  /* Hide the clear button */
+}
+
+.react-time-picker__button:disabled {
+  opacity: 0.5;
+  /* Reduce opacity for disabled button */
+}
+
+.owner-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
